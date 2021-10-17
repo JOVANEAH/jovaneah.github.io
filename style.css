@@ -58,7 +58,7 @@ nav img{
 }
 .text-box p{
 	margin: 10px 0 400x;
-	font-size: 44px;
+	font-size: 14px;
 	color: #fff;
 }
 .hero-btn{
@@ -66,8 +66,8 @@ nav img{
 	text-decoration: none;
 	color: #fff;
 	border: 1px solid #fff;
-	padding: 40px 34px;
-	font-size: 34px;
+	padding: 12px 34px;
+	font-size: 13px;
 	background: transparent;
 	position: relative;
 	cursor: pointer;
