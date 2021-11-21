@@ -1,0 +1,15 @@
+div {
+  width: 1000px;
+  height: 600px;
+  border: rgb(201, 197, 5) solid 15px;
+}
+.a {
+  padding-bottom: 10px;
+  padding-left: 8px;
+  margin-top: 40px;
+}
+.b {
+  padding-bottom: 10px;
+  padding-left: 8px;
+  margin-top: 40px;
+}
