@@ -72,9 +72,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav img {
-  width: 150px;
-}
+
 .nav-links ul li {
   list-style: none;
   display: inline-block;
@@ -132,7 +130,7 @@ nav img {
   transition: 1s;
 }
 
-nav.fa {
+nav .fa {
   display: none;
 }
 
@@ -160,5 +158,11 @@ nav.fa {
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 30px;
+  }
+  .fa {
+    margin-left: 400px;
   }
 }
