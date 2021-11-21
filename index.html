@@ -21,6 +21,7 @@
             <span style="--i: 3"></span>
           </div>
         </div>
+
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -30,9 +31,8 @@
             <li><a href="https://wa.me/6281385744255">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-
+      <i class="fa fa-bars" onclick="showMenu()"></i>
       <div class="text-box">
         <h1>Jovaneah Photo Gallery</h1>
         <p>You can see my photo collection and the story behind it.<br />Hope you'll like it</p>
@@ -42,11 +42,11 @@
     <!------JavaScript for Toggle Menu------>
     <script>
       var navLinks = document.getElementById("navLinks");
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
       function hideMenu() {
         navLinks.style.right = "-200px";
+      }
+      function showMenu() {
+        navLinks.style.right = "0";
       }
     </script>
   </body>
