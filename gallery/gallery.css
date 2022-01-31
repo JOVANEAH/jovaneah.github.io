@@ -1,14 +1,28 @@
-div {
-  width: 1000px;
-  height: 600px;
-  border: rgb(201, 197, 5) solid 15px;
+body {
+  background-color: rgb(146, 146, 7);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.a {
+h1 {
+  color: black;
+  background-color: white;
+  font-family: "arial";
+}
+h2 {
+  color: white;
+  font-family: "arial";
+}
+p {
+  color: white;
+  font-family: "Comic Sans MS";
+}
+
+.bird {
   padding-bottom: 10px;
   padding-left: 8px;
   margin-top: 40px;
 }
-.b {
+.flower {
   padding-bottom: 10px;
   padding-left: 8px;
   margin-top: 40px;
